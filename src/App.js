@@ -48,6 +48,7 @@ function App() {
   return (
     <>
     {/* <Router> */}
+    hiiiiii
     <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode} modeText={modeText}/>
     <Alert alert={alert} ></Alert>
     <div className='container my-3' >
@@ -59,7 +60,7 @@ function App() {
           <TextForm heading={"Enter the text to analyze"} mode={mode} showAlert={showAlert}/>
           {/* }/>  
       </Routes> */}
-      {/* <About></About> */}  
+      {/* <About></About>   */}
     </div>
     {/* </Router> */}
    </>
